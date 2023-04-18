@@ -53,7 +53,20 @@ namespace winrt::HeifWicTimeout::implementation
         UINT height;
         check_hresult(frame->GetSize(&width, &height));
 
-        auto stride = 4 * ((32 * width + 31) / 32);
+        WICPixelFormatGUID pixelFormat;
+        check_hresult(frame->GetPixelFormat(&pixelFormat));
+
+        com_ptr<IWICComponentInfo> componentInfo;
+        check_hresult(wicImagingFactory->CreateComponentInfo(pixelFormat, componentInfo.put()));
+
+        com_ptr<IWICPixelFormatInfo> pixelFormatInfo;
+        check_hresult(componentInfo->QueryInterface<IWICPixelFormatInfo>(pixelFormatInfo.put()));
+
+        UINT bitsPerPixel;
+        check_hresult(pixelFormatInfo->GetBitsPerPixel(&bitsPerPixel));
+
+        // Stride calculation from: https://learn.microsoft.com/en-us/windows/win32/api/wincodec/nf-wincodec-iwicbitmapsource-copypixels
+        auto stride = (width * bitsPerPixel + 7) / 8;
         auto bufferSize = stride * height;
 
         auto pBuffer = std::make_unique<BYTE[]>(bufferSize);
