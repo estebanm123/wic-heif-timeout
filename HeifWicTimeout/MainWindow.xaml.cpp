@@ -10,6 +10,7 @@
 #pragma comment(lib, "shlwapi.lib")
 
 #include <winrt/Windows.Storage.h>
+#include <winrt/Windows.Storage.Streams.h>
 #include <winrt/windows.foundation.h>
 #include <wincodec.h>
 
@@ -26,37 +27,24 @@ using namespace Microsoft::UI::Xaml;
 
 namespace winrt::HeifWicTimeout::implementation
 {
-    fire_and_forget LoadFromWIC(const void* pSource, std::wstring const& filename)
+    fire_and_forget LoadFromWIC(Streams::IBuffer fileBuffer)
     {
+        co_await resume_background();
+
         com_ptr<IWICImagingFactory> wicImagingFactory;
-        winrt::check_hresult(
+        check_hresult(
             CoCreateInstance(
                 CLSID_WICImagingFactory2,
                 nullptr,
                 CLSCTX_INPROC_SERVER,
-                IID_PPV_ARGS(&wicImagingFactory)
-            )
-        );
+                IID_PPV_ARGS(&wicImagingFactory)));
+        com_ptr<IWICStream> stream;
+        check_hresult(wicImagingFactory->CreateStream(stream.put()));
 
-        // Create input stream for memory
-        //com_ptr<IWICStream> stream;
-        //HRESULT hr = wicImagingFactory->CreateStream(stream.put());
-        //if (FAILED(hr))
-        //    return hr;
+        check_hresult(stream->InitializeFromMemory(fileBuffer.data(), static_cast<DWORD>(fileBuffer.Length())));
 
-        //hr = stream->InitializeFromMemory(static_cast<uint8_t*>(const_cast<void*>(pSource)), static_cast<DWORD>(size));
-        //if (FAILED(hr))
-        //    return hr;
-
-        //// Initialize WIC
         com_ptr<IWICBitmapDecoder> decoder;
-        //hr = wicImagingFactory->CreateDecoderFromStream(stream.get(), nullptr, WICDecodeMetadataCacheOnDemand, decoder.put());
-        //if (FAILED(hr))
-        //    return hr;
-
-        check_hresult(wicImagingFactory->CreateDecoderFromFilename(filename.c_str(), nullptr, GENERIC_READ, WICDecodeMetadataCacheOnDemand, decoder.put()));
-
-        co_await resume_background();
+        check_hresult(wicImagingFactory->CreateDecoderFromStream(stream.get(), nullptr, WICDecodeMetadataCacheOnDemand, decoder.put()));
 
         com_ptr<IWICBitmapFrameDecode> frame;
         check_hresult(decoder->GetFrame(0, frame.put()));
@@ -69,17 +57,18 @@ namespace winrt::HeifWicTimeout::implementation
         auto bufferSize = stride * height;
 
         BYTE* pBuffer = new BYTE[bufferSize];
-        OutputDebugString(L"!~ copyingpixels\n");
+
+        OutputDebugString(L"!~ CopyPixels start\n");
         auto hr = frame->CopyPixels(nullptr, stride, bufferSize, pBuffer);
 
         if (hr == 0x80070102)
         {
             OutputDebugString(L"!~ Timeout error\n");
-            DebugBreak();
+            __debugbreak();
         }
 
         check_hresult(hr);
-        OutputDebugString(L"!~ copy pixels success\n");
+        OutputDebugString(L"!~ CopyPixels success\n");
     }
 
     MainWindow::MainWindow()
@@ -87,20 +76,19 @@ namespace winrt::HeifWicTimeout::implementation
         InitializeComponent();
     }
 
-    constexpr std::wstring_view HEIC_PATH = L"C:\\Users\\emargaron\\OneDrive - Microsoft\\Pictures\\heics\\! (3) - Copy - Copy - Copy.HEIC";
-
-    void MainWindow::myButton_Click(IInspectable const&, RoutedEventArgs const&)
+    fire_and_forget MainWindow::myButton_Click(IInspectable const&, RoutedEventArgs const&)
     {
-        WCHAR path[MAX_PATH];
-        GetModuleFileNameW(NULL, path, MAX_PATH);
-        PathRemoveFileSpecW(path);
-        auto heicPath = std::wstring{ path } + L"\\Assets\\test.HEIC";
+        WCHAR exePath[MAX_PATH];
+        GetModuleFileNameW(NULL, exePath, MAX_PATH);
+        PathRemoveFileSpecW(exePath);
+        auto heicPath = std::wstring{ exePath } + L"\\Assets";
 
-        int i = 0;
-        while (i < 1000)
+        auto folder = co_await StorageFolder::GetFolderFromPathAsync(heicPath);
+        auto files = co_await folder.GetFilesAsync();
+        for (auto file : files)
         {
-            i++;
-            LoadFromWIC(nullptr, heicPath.c_str());
+            auto fileBuffer = co_await FileIO::ReadBufferAsync(file);
+            LoadFromWIC(fileBuffer);
         }
     }
 }

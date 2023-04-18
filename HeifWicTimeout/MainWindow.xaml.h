@@ -11,7 +11,7 @@ namespace winrt::HeifWicTimeout::implementation
     {
         MainWindow();
 
-        void myButton_Click(Windows::Foundation::IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args);
+        winrt::fire_and_forget myButton_Click(Windows::Foundation::IInspectable const& sender, Microsoft::UI::Xaml::RoutedEventArgs const& args);
     };
 }
 
