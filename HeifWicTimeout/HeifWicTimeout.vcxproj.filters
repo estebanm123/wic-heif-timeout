@@ -39,7 +39,6 @@
     <Image Include="Assets\Wide310x150Logo.scale-200.png">
       <Filter>Assets</Filter>
     </Image>
-    <Image Include="TestImages\test.HEIC" />
     <Image Include="TestNonHeics\!!!1 - Copy.jpg">
       <Filter>TestNonHeics</Filter>
     </Image>

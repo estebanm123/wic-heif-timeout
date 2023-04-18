@@ -238,10 +238,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Image Include="TestImages\test.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
     <Image Include="TestHeics\! (10) - Copy.HEIC">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <FileType>Document</FileType>

@@ -81,7 +81,7 @@ namespace winrt::HeifWicTimeout::implementation
         WCHAR exePath[MAX_PATH];
         GetModuleFileNameW(NULL, exePath, MAX_PATH);
         PathRemoveFileSpecW(exePath);
-        auto heicPath = std::wstring{ exePath } + L"\\TestImages";
+        auto heicPath = std::wstring{ exePath } + L"\\TestHeics";
 
         auto folder = co_await StorageFolder::GetFolderFromPathAsync(heicPath);
         auto files = co_await folder.GetFilesAsync();
@@ -93,7 +93,6 @@ namespace winrt::HeifWicTimeout::implementation
         {
             auto fileBuffer = co_await FileIO::ReadBufferAsync(file);
             LoadFromWIC(fileBuffer);
-            break;
         }
     }
 }
