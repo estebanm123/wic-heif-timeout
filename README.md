@@ -2,7 +2,7 @@
 
 This app demonstrates a timeout issue with IWICBitmapSource::CopyPixels with .heic files. It executes a series of WIC decoding calls on background threads across a folder full of HEIC files. Eventually, the CopyPixels call returns a 0x80070102 timeout error. 
 
-This issue does not repro when LoadFromWic is called synchronously on .heics, no offloading to threadpool. With non-heic files, concurrent LoadFromWic calls don't repro the issue either and all complete successfully. There's a TestNonHeics folder included in the project for testing this.
+This issue does not repro when LoadFromWic is called synchronously on .heics, no offloading to threadpool. On other formats like .jpg, .gif, concurrent LoadFromWic calls don't repro the issue either and all complete successfully. There's a TestNonHeics folder included in the project for testing this.
 
 ## Repro instructions
 1. Clone this repo.
