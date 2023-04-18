@@ -30,7 +30,7 @@ namespace winrt::HeifWicTimeout::implementation
     fire_and_forget LoadFromWIC(Streams::IBuffer fileBuffer)
     {
         co_await resume_background();
-        
+
         com_ptr<IWICImagingFactory> wicImagingFactory;
         check_hresult(
             CoCreateInstance(
