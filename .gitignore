@@ -1,0 +1,57 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled resource files
+*.res
+
+# Visual Studio Files
+*.user
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+.vs/
+*x64*
+*Win32*
+*ARM*
+*ARM64*
+*Generated*
+obj
+packages/
+/enc_temp_folder
+.vscode/
+bin/
+Release/
+Debug/
+
+#CMake Build output
+submodules/Build/*
+
+# Combined idl files
+**/Combined_Idl.idl
