@@ -40,102 +40,6 @@
       <Filter>Assets</Filter>
     </Image>
     <Image Include="TestImages\test.HEIC" />
-    <Image Include="TestImages\! (10) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (10).HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (11) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (11) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (11) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (12) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (12) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (12) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (14) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (14) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (14) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (15) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (15) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (15) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (16) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (16) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (16) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (17) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (17) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (17) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (18) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (18) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (18) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (19) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (19) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (19) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (20) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (20) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (20) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (21) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (21) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="TestImages\! (21) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
     <Image Include="TestNonHeics\!!!1 - Copy.jpg">
       <Filter>TestNonHeics</Filter>
     </Image>
@@ -355,16 +259,115 @@
     <Image Include="TestNonHeics\Donkey-PNG-Image.jpeg">
       <Filter>TestNonHeics</Filter>
     </Image>
+    <Image Include="TestHeics\! (10) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (10).HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (11) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (11) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (11) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (12) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (12) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (12) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (14) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (14) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (14) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (15) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (15) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (15) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (16) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (16) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (16) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (17) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (17) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (17) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (18) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (18) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (18) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (19) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (19) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (19) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (20) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (20) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (20) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (21) - Copy - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (21) - Copy - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\! (21) - Copy.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
+    <Image Include="TestHeics\test.HEIC">
+      <Filter>TestHeics</Filter>
+    </Image>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="TestImages">
-      <UniqueIdentifier>{1e71ff5a-eba0-4050-ab4e-0cbde9c63699}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Assets">
       <UniqueIdentifier>{de0f257a-1bc4-4258-86db-22debc4a388a}</UniqueIdentifier>
     </Filter>
     <Filter Include="TestNonHeics">
       <UniqueIdentifier>{17799324-14a0-4b6d-98d5-23fa377a3c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TestHeics">
+      <UniqueIdentifier>{1e71ff5a-eba0-4050-ab4e-0cbde9c63699}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

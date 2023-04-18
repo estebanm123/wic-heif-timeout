@@ -238,135 +238,139 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <Image Include="TestImages\! (10) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (10).HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (11) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (11) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (11) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (12) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (12) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (12) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (14) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (14) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (14) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (15) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (15) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (15) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (16) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (16) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (16) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (17) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (17) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (17) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (18) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (18) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (18) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (19) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (19) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (19) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (20) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (20) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (20) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (21) - Copy - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (21) - Copy - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
-    <Image Include="TestImages\! (21) - Copy.HEIC">
-      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
-      <FileType>Document</FileType>
-    </Image>
     <Image Include="TestImages\test.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (10) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (10).HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (11) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (11) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (11) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (12) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (12) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (12) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (14) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (14) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (14) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (15) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (15) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (15) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (16) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (16) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (16) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (17) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (17) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (17) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (18) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (18) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (18) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (19) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (19) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (19) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (20) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (20) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (20) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (21) - Copy - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (21) - Copy - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\! (21) - Copy.HEIC">
+      <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
+      <FileType>Document</FileType>
+    </Image>
+    <Image Include="TestHeics\test.HEIC">
       <DeploymentContent Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</DeploymentContent>
       <FileType>Document</FileType>
     </Image>
