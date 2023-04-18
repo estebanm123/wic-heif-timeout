@@ -19,108 +19,111 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\test.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (10) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (10).HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (11) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (11) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (11) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (12) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (12) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (12) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (14) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (14) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (14) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (15) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (15) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (15) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (16) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (16) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (16) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (17) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (17) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (17) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (18) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (18) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (18) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (19) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (19) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (19) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (20) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (20) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (20) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (21) - Copy - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (21) - Copy - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
     <Image Include="Assets\! (21) - Copy.HEIC">
-      <Filter>Assets</Filter>
+      <Filter>TestImages</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="Assets">
+    <Filter Include="TestImages">
       <UniqueIdentifier>{1e71ff5a-eba0-4050-ab4e-0cbde9c63699}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{de0f257a-1bc4-4258-86db-22debc4a388a}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
