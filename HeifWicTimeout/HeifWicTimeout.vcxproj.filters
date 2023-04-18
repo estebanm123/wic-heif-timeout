@@ -18,104 +18,26 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <Image Include="Assets\test.HEIC">
-      <Filter>TestImages</Filter>
+    <Image Include="Assets\LockScreenLogo.scale-200.png">
+      <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\! (10) - Copy.HEIC">
-      <Filter>TestImages</Filter>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\! (10).HEIC">
-      <Filter>TestImages</Filter>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\! (11) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
+    <Image Include="Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\! (11) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\! (11) - Copy.HEIC">
-      <Filter>TestImages</Filter>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
     </Image>
-    <Image Include="Assets\! (12) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (12) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (12) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (14) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (14) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (14) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (15) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (15) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (15) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (16) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (16) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (16) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (17) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (17) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (17) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (18) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (18) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (18) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (19) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (19) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (19) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (20) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (20) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (20) - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (21) - Copy - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (21) - Copy - Copy.HEIC">
-      <Filter>TestImages</Filter>
-    </Image>
-    <Image Include="Assets\! (21) - Copy.HEIC">
-      <Filter>TestImages</Filter>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>
