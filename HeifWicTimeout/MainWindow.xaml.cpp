@@ -53,13 +53,13 @@ namespace winrt::HeifWicTimeout::implementation
         UINT height;
         check_hresult(frame->GetSize(&width, &height));
 
-        auto stride = 4 * (width * 32 + 31) / 32;
+        auto stride = 4 * ((32 * width + 31) / 32);
         auto bufferSize = stride * height;
 
-        BYTE* pBuffer = new BYTE[bufferSize];
+        auto pBuffer = std::make_unique<BYTE[]>(bufferSize);
 
         OutputDebugString(L"!~ CopyPixels start\n");
-        auto hr = frame->CopyPixels(nullptr, stride, bufferSize, pBuffer);
+        auto hr = frame->CopyPixels(nullptr, stride, bufferSize, pBuffer.get());
 
         if (hr == 0x80070102)
         {
@@ -85,10 +85,15 @@ namespace winrt::HeifWicTimeout::implementation
 
         auto folder = co_await StorageFolder::GetFolderFromPathAsync(heicPath);
         auto files = co_await folder.GetFilesAsync();
+
+        //auto fileBuffer = co_await FileIO::ReadBufferAsync(files.GetAt(0));
+        //LoadFromWIC(fileBuffer);
+
         for (auto file : files)
         {
             auto fileBuffer = co_await FileIO::ReadBufferAsync(file);
             LoadFromWIC(fileBuffer);
+            break;
         }
     }
 }
